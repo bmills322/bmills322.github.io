@@ -29,6 +29,7 @@ button {
 }
 
 .btn, .btn-info {
+	text-align: center;
 	background-color: rgba(255, 255, 255, .6);
 	color: black;
 	border: none;
