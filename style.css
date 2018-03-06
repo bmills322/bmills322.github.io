@@ -1,0 +1,43 @@
+body {
+	background: url(assets/rinkwall.jpg) no-repeat center center fixed;
+	background-color: black;
+	font-family: 'Aldrich';
+}
+
+h1 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.vertical-center {
+	margin-top: 200px;
+}
+
+img {
+	max-width: 80%;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2) skew(5deg, -3deg);
+}
+
+button {
+	transform: scaleX(3) scaleY(2);
+	font-family: sans-serif;
+	max-width: 100%;
+}
+
+.btn, .btn-info {
+	background-color: rgba(255, 255, 255, .6);
+	color: black;
+	border: none;
+	transform: scaleX(3) scaleY(2);
+	font-family: sans-serif;
+	max-width: 100%;
+}
+
+.btn:hover, .btn-info:hover {
+	background-color: black;
+	border: none;
+}
